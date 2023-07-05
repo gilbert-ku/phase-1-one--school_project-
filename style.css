@@ -38,7 +38,7 @@ header {
 .nav-bar ul li{
     list-style: none;
     margin: 29px;
-    /* font-size: 3vw */
+    font-size: 3vw
 }
 .nav-bar li a{
     text-decoration: none;
@@ -63,20 +63,25 @@ header {
     display: flex;
     background-image:url(./image-school/schoo;-project.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
+    opacity: 0.7;
     /* linear-gradient(#16B669, #80e5b4)  */
     /* background-attachment: fixed; */
 
 }
 .school-name {
     /* background:linear-gradient(#16B669, #75807b) #16B669; */
-    color: white;
+    color: rgb(255, 255, 255);
+    filter: brightness(200%);
     text-align: center;
     font-size: 2vw;
     width: 40vw;
     padding-top: 25vh;
     margin-left: 10vw;
+    /* background-color: #16B669; */
+    opacity: 0.9;
+    
 }
 .value {
     padding-left: 8vw;
@@ -89,6 +94,7 @@ header {
 }
 .value ol li {
     text-decoration: none;
+    list-style: none;
 }
 .school-motto {
     height: 130px;
@@ -101,7 +107,4 @@ header {
     padding-top: 37px;
     font-size: 3vw;
 }
-footer {
-    height: 200px; 
-    background: #0cc769; 
-}
+
