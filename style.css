@@ -27,22 +27,25 @@ header {
 .nav-bar {
     float: right;
     
-}ul { 
+}
+.nav-bar ul { 
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10vw;
         
-}ul li{
+}
+.nav-bar ul li{
     list-style: none;
     margin: 29px;
-    font-size: 3vw
-}ul li a{
+    /* font-size: 3vw */
+}
+.nav-bar li a{
     text-decoration: none;
     color: black;
 }
 
-ul li button {
+.nav-bar li button {
     width: 10vw;
     background-color: #16B669;
     height: 50px;
@@ -98,7 +101,7 @@ ul li button {
     padding-top: 37px;
     font-size: 3vw;
 }
-/* footer {
+footer {
     height: 200px; 
-    background: #1b1f1d; 
-} */
+    background: #0cc769; 
+}
