@@ -107,4 +107,82 @@ header {
     padding-top: 37px;
     font-size: 3vw;
 }
+footer{
+    height: 150px; 
+    background: #16B669; 
+}
+.main-footer {
+    height: 150px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+footer h3 {
+    text-align: center;
+    background: #16B669;
+}
+.about h1 {
+    color: white;
+    padding: 10px;
+}
+.about ul li {
+    list-style: none;
+    font-size: 1vw;
+    color: white;
+    padding: 5px;
+}
+.about ul li i {
+    color: #000;
+    /* color: white; */
+}
+.about ul li a {
+    color: white;
+    text-decoration: none;
+}
+.about a:hover {
+    /* color: rgb(15, 233, 15); */
+    color: black;
+    font-size: 1.2vw;
+}
+.contact h1{
+    color: white;
+    padding: 10px;
+}
+.contact ul li {
+    list-style: none;
+    font-size: 1vw;
+    color: white;
+    padding: 5px;
+}
+.contact ul li a {
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover {
+    /* color: rgb(15, 233, 15); */
+    color: black;
+    font-size: 1.2vw;
+}
 
+.curricular h1{
+    color: white;
+    padding: 10px;
+}
+.curricular ul li {
+    list-style: none;
+    font-size: 1vw;
+    color: white;
+    padding: 5px;
+}
+.curricular ul li a {
+    /* color: rgb(78, 65, 226); */
+    text-decoration: none;
+    color: white
+}
+.curricular a:hover {
+    /* color: rgb(15, 233, 15); */
+    color: black;
+    font-size: 1.2vw;
+}
