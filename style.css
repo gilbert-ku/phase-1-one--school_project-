@@ -5,4 +5,44 @@
 } 
 body {
     background-color: rgb(64, 148, 64);
+    width: 100vw;
+    height: auto;
 }
+
+header {
+    height: 130px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.logo {
+    padding: 10px;
+    border-radius: 30px;
+}
+.nav-bar {
+    float: right;
+    
+}ul { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+        
+}ul li{
+    list-style: none;
+    margin: 29px;
+    font-size: 3vw
+}ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li button {
+    width: 10vw;
+    background-color: #16B669;
+    height: 50px;
+    font-size: 1vw;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 12px;
+}
+
