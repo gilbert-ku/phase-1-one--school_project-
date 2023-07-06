@@ -313,4 +313,79 @@ footer h3 {
     text-decoration: underline;
     color: #16B669;
     font-size: 1vw;
+}/* *********************start and book visit************************** */
+.body-admin{
+    background-image: url(./image-school/erika-fletcher-MZxqc6n9qCw-unsplash.jpg);
+    background-color: transparent;
+    background-color: #16B669; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    opacity: 0.7;
 }
+.admission-visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 67.3vh;
+    width: 80vw;
+    background-color: #16B669;
+    /* background-color: azure; */
+    margin-left: 10vw;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    /* background-image: url(./image-school/erika-fletcher-MZxqc6n9qCw-unsplash.jpg); */
+}
+
+
+.admission {
+    width: 40vw;
+    color: rgb(15, 15, 15);
+    font-weight: 700;
+    font-size: 1vw;
+} 
+.admission 
+h2 {
+    font-size: 1.5vw;
+    text-align: center;
+    /* color: white; */
+}  
+
+.content h3 {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.content p {
+    font-family: 15px;
+}
+.p1 {
+    padding: 15px;
+}
+.p2 {
+    padding: 15px;
+}
+.apply {
+    align-items: center;
+    justify-items: center;
+    width: 15vw;
+    height: 45px;
+    border-radius: 15px;
+    text-align: center;
+    background-color:  #16B669;
+    margin-left: 5vw;
+    color: white;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
