@@ -1,0 +1,101 @@
+
+/* *******nav bar******* */
+
+/* header {
+    height: 130px;
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+.logo {
+    padding: 10px;
+    border-radius: 30px;
+}
+.nav-bar {
+    float: right;
+    
+}
+.nav-bar ul { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+        
+}
+.nav-bar ul li{
+    list-style: none;
+    margin: 29px;
+    font-size: 2vw
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar li button {
+    width: 10vw;
+    background-color: #16B669;
+    height: 50px;
+    font-size: 1vw;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 12px;
+    color: #000;
+}
+    /* color: #80e5b4; */
+
+
+
+    /* *************home ******** */
+.home-div {
+    width: 100vw;
+    height: 500px;
+    /* height: auto; */
+    display: flex;
+    background-image:url(./image-school/schoo;-project.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.7;
+    /* linear-gradient(#16B669, #80e5b4)  */
+    /* background-attachment: fixed; */
+
+}
+.school-name {
+    /* background:linear-gradient(#16B669, #75807b) #16B669; */
+    color: rgb(255, 255, 255);
+    filter: brightness(200%);
+    text-align: center;
+    font-size: 2vw;
+    width: 40vw;
+    padding-top: 25vh;
+    margin-left: 10vw;
+    /* background-color: #16B669; */
+    opacity: 0.9;
+    
+}
+.value {
+    padding-left: 8vw;
+    color: white;
+    text-align: start;
+    font-size: 1vw;
+    width: 40vw;
+    padding-top: 25vh;
+    margin-right: 10vw;
+}
+.value ol li {
+    text-decoration: none;
+    list-style: none;
+}
+.school-motto {
+    height: 130px;
+    width: auto;
+    background-color: white;
+}
+
+.school-motto h1 {
+    text-align: center;
+    padding-top: 37px;
+    font-size: 3vw;
+}
+
