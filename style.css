@@ -126,6 +126,32 @@ header {
     font-size: 3vw;
 }
 
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .home-div {
+        height: auto;
+        background-size: cover;
+        filter: brightness(50%);
+    }
+
+    .school-name {
+        font-size: 4vw;
+        padding-top: 10vh;
+        margin-left: 5vw;
+        
+    }
+
+    .value {
+        padding-left: 5vw;
+        font-size: 2vw;
+        padding-top: 10vh;
+        margin-right: 5vw;
+    }
+
+    .school-motto h1 {
+        font-size: 6vw;
+    }
+}
 footer{
     height: 150px; 
     background: #16B669; 
