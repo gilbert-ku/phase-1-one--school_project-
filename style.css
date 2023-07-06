@@ -14,7 +14,10 @@ body {
 
 }
 
-/* Common styles for header */
+
+/*styles for header */
+
+
 header {
     height: 130px;
     background-color: whitesmoke;
@@ -76,10 +79,16 @@ header {
         font-size: 12px;
     }
 }
-/* ******content***** */
+
+
+
+
+/* ****** home content************** */
+
+
 .home-div {
     width: 100vw;
-    height: 500px;
+    height: 55.8vh;
     display: flex;
     background-image: url(./image-school/schoo;-project.png);
     background-repeat: no-repeat;
@@ -97,6 +106,8 @@ header {
     padding-top: 25vh;
     margin-left: 10vw;
     opacity: 0.9;
+    filter: brightness(200%);
+
 }
 
 .value {
@@ -107,6 +118,8 @@ header {
     width: 40vw;
     padding-top: 25vh;
     margin-right: 10vw;
+    filter: brightness(200%);
+
 }
 
 .value ol li {
@@ -152,91 +165,90 @@ header {
         font-size: 6vw;
     }
 }
-footer{
-    height: 150px; 
-    background: #16B669; 
-}
-.main-footer {
-    height: 150px; 
+
+/* *******************add style to footer ******************* */
+footer {
+    height: 150px;
+  }
+  
+  .main-footer {
+    height: 150px;
+    background: #16B669;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10vw;
     padding-right: 10vw;
-}
-footer h3 {
+  }
+  
+  footer h3 {
     text-align: center;
-    background: #16B669;
-}
-.about h1 {
+  }
+  
+  .about h1,
+  .contact h1,
+  .curricular h1 {
     color: white;
     padding: 10px;
-}
-.about ul li {
+  }
+  
+  .about ul li,
+  .contact ul li,
+  .curricular ul li {
     list-style: none;
     font-size: 1vw;
     color: white;
     padding: 5px;
-}
-.about ul li i {
+  }
+  
+  .about ul li i {
     color: #000;
-    /* color: white; */
-}
-.about ul li a {
+  }
+  
+  .about ul li a,
+  .contact ul li a,
+  .curricular ul li a {
     color: white;
     text-decoration: none;
-}
-.about a:hover {
-    /* color: rgb(15, 233, 15); */
+  }
+  
+  .about a:hover,
+  .contact a:hover,
+  .curricular a:hover {
     color: black;
     font-size: 1.2vw;
-}
-.contact h1{
-    color: white;
-    padding: 10px;
-}
-.contact ul li {
-    list-style: none;
-    font-size: 1vw;
-    color: white;
-    padding: 5px;
-}
-.contact ul li a {
-    color: white;
-    text-decoration: none;
-}
-.contact a:hover {
-    /* color: rgb(15, 233, 15); */
-    color: black;
-    font-size: 1.2vw;
-}
-
-.curricular h1{
-    color: white;
-    padding: 10px;
-}
-.curricular ul li {
-    list-style: none;
-    font-size: 1vw;
-    color: white;
-    padding: 5px;
-}
-.curricular ul li a {
-    /* color: rgb(78, 65, 226); */
-    text-decoration: none;
-    color: white
-}
-.curricular a:hover {
-    /* color: rgb(15, 233, 15); */
-    color:black;
-    font-size: 1.2vw;
-
-}
-
-
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main-footer {
+        flex-direction: column;
+        padding: 10px;
+      }
+      
+      .about h1,
+      .contact h1,
+      .curricular h1 {
+        font-size: 18px;
+        padding: 5px;
+      }
+      
+      .about ul li,
+      .contact ul li,
+      .curricular ul li {
+        font-size: 14px;
+        padding: 3px;
+      }
+      
+      footer h3 {
+        font-size: 14px;
+      }
+    }
+  
 
 /* *********************start and book visit************************** */
-.body-admin{
+/* Styles for larger screens */
+    
+.body-admin {
     background-image: url(./image-school/erika-fletcher-MZxqc6n9qCw-unsplash.jpg);
     background-color: transparent;
     background-color: #16B669; 
@@ -245,130 +257,90 @@ footer h3 {
     background-position: center; 
     opacity: 0.7;
 }
+  
 .admission-visit {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 67.3vh;
-    width: 80vw;
-    background-color: #16B669;
-    /* background-color: azure; */
-    margin-left: 10vw;
-    background-color: transparent;
-    border: 3px solid whitesmoke;
-    border-radius: 15px;
-    /* background-image: url(./image-school/erika-fletcher-MZxqc6n9qCw-unsplash.jpg); */
+    width: 70vw;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(./image-school/school-project.jpeg);
+    background-color: #16B669; */
+    /* border: 3px solid whitesmoke; */
+    /* border-radius: 15px; */
+    opacity: 0.5;
+    filter: brightness(60%);
 }
-
-
-.admission {
+  
+.admission, .visit {
     width: 40vw;
     color: rgb(15, 15, 15);
     font-weight: 700;
-    font-size: 1vw;
-    margin-left: 1.5vw;
+    font-size: 1.5vw;
+    margin: 1.5vw;
     border-radius: 15px;
     border: 2px solid #16B669;
-} 
-.admission 
-h2 {
-    font-size: 1.5vw;
-    text-align: center;
-    /* color: white; */
-}  
-
-.content h3 {
-    font-size: 1.5vw;
-    text-align: center;
 }
-
-.content p {
-    font-family: 15px;
-}
-.p1 {
-    padding: 15px;
-}
-.p2 {
-    padding: 15px;
-}
-.apply {
-    align-items: center;
-    justify-items: center;
-    width: 20vw;
-    height: 45px;
-    border-radius: 15px;
-    text-align: center;
-    background-color:  #16B669;
-    margin-left: 5vw;
-    color: white;
-    font-size: 1vw;
-    font-weight: 700;
+.visit h3, h4 {
+    color: #EDE3E3;
 }
 .visit {
-    width: 40vw;
-    color: rgb(15, 15, 15);
-    font-weight: 700;
-    font-size: 1vw;
-    border-radius: 15px;
-    border: 2px solid #16B669;
+    color: #eef6f2;
 }
-.visit h3 {
-    font-size: 1.5vw;
+
+  
+.admission h2, .content h3 {
+    font-size: 2vw;
     text-align: center;
+    color: white;
 }
-form{
-    margin-left: 5vw;
+  
+.content p {
+    font-size: 1.2vw;
+    padding: 15px;
+    color: white;
 }
-.visit, form,
-input {
-    color: black;
-    font-size: 1vw;
-    font-weight: 700;
-}
-.visitbtn {
-    align-items: center;
-    justify-items: center;
-    width: 20vw;
+  
+    .apply, .visitbtn {
+    width: 15vw;
     height: 45px;
     border-radius: 15px;
     text-align: center;
-    background-color:  #16B669;
+    background-color: #16B669;
     margin-left: 4vw;
-    margin-top: 5px;
     color: white;
-    font-size: 0.8vw;
+    font-size: 1.2vw;
     font-weight: 700;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+      /* Styles for smaller screens */
+    @media screen and (max-width: 768px) {
+    .admission-visit {
+        flex-direction: column;
+        width: 90vw;
+        padding: 20px;
+    }
+  
+    .admission, .visit {
+        width: 100%;
+        font-size: 4vw;
+        margin: 10px 0;
+    }
+  
+    apply, .visitbtn {
+        width: 100%;
+        font-size: 2.5vw;
+    }
+  
+    .content p {
+        font-size: 3vw;
+        padding: 10px;
+    }
+}
 
 
 /* **************log in**************** */
@@ -377,123 +349,125 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 67.5vh;
-    background-color: transparent;
-    background-color: #16B669; 
+    min-height: 69.5vh;
+    background-color: #16B669;
     background-image: url("./image-school/robin-worrall-QaYcPAO6SIc-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     opacity: 0.9;
 }
+
 .login-box {
     position: relative;
-    width: 40vw;
-    height: 450px;
-    background-color:#16B669;
-    background: transparent;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(22, 182, 105, 0.9);
     border: 3px solid #16B669;
     border-radius: 25px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     backdrop-filter: blur(15px);
 }
+
 .login-box h1 {
     font-size: 3em;
-    color: #16B669;
+    /* color: #16B669; */
     text-align: center;
+    margin-bottom: 30px;
 }
+
 .input-box {
     position: relative;
-    width: 310px;
-    margin: 30px 0;
-    border-bottom: 3px solid black;
+    width: 100%;
+    margin-bottom: 30px;
 }
+
 .input-box label {
     position: absolute;
-    top: 18%;
+    top: -15px;
     left: 5px;
-    transform: translateY(-50%);
     font-size: 1em;
-    color: black;
+    color: white;
     pointer-events: none;
-    transition: .9s;
-}
-.input-box input:focus~label,
-.input-box input:valid~label {
-    top: 10px;
-}
-.input-box input {
-    width: 100%;
-    height: 50px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    color: rgb(237, 227, 227);
-    padding: 0 40px 0 5px;
-}
-.label-login {
-    color: white;
-}
-.input-box label{
-    color: white;
+    transition: .5s;
 }
 .input-box .icon {
     position: absolute;
     right: 8px;
-    /* color: ; */
+    
     font-size: 1.5em;
     line-height: 50px;
 }
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -10px;
+    font-size: 0.9em;
+    transition: .5s;
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #EDE3E3;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
 .remember-forgot {
-    margin: -15px 0 15px;
+    margin-bottom: 15px;
     font-size: .9em;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.remember-forgot label input {
-    margin-right: 3px;
-}
+
 .remember-forgot a {
-    color: white; 
+    color: white;
     text-decoration: none;
 }
 
 .remember-forgot a:hover {
     text-decoration: underline;
-    color: #16B669;
-    font-size: 1vw;
+    color: #000402;
 }
+
 .loginbtn {
     width: 100%;
     height: 40px;
     border-radius: 40px;
     outline: none;
     border: none;
-    background-color: #16B669;
+    background-color: #eef6f2;
     cursor: pointer;
     font-size: 1em;
-    color: white;
+    color: rgb(7, 6, 6);
     font-weight: 700;
+    margin-bottom: 20px;
 }
+
 .register-link {
     font-size: .9em;
     color: white;
     text-align: center;
-    margin: 25px 0 10px;
-
+    margin-bottom: 10px;
 }
 
 .register-link p a {
-    /* color: bla; */
     text-decoration: none;
     font-weight: 600;
     color: wheat;
 }
+
 .register-link p a:hover {
     text-decoration: underline;
-    color: #16B669;
-    font-size: 1vw;
+    color: #000704;
 }
