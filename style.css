@@ -181,8 +181,3 @@ footer h3 {
     text-decoration: none;
     color: white
 }
-.curricular a:hover {
-    /* color: rgb(15, 233, 15); */
-    color: black;
-    font-size: 1.2vw;
-}
