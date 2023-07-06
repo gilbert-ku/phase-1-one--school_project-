@@ -186,10 +186,8 @@ footer h3 {
     color:black;
     font-size: 1.2vw;
 
-    /* start button */
-}.admission-visit {
-    display: flex;
 }
+
 /* **************log in**************** */
 
 .body {
@@ -218,7 +216,7 @@ footer h3 {
     align-items: center;
     backdrop-filter: blur(15px);
 }
-h1 {
+.login-box h1 {
     font-size: 3em;
     color: #16B669;
     text-align: center;
