@@ -1,0 +1,111 @@
+{
+    "student": [
+      {
+        "id": 1,
+        "first_name": "Justina",
+        "last_name": "Ginglell",
+        "gender": "Female",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "A-"
+  
+      },
+      {
+        "id": 2,
+        "first_name": "Marion",
+        "last_name": "Jenman",
+        "gender": "Male",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "B-"
+  
+      },
+      {
+        "id": 3,
+        "first_name": "Alfy",
+        "last_name": "Begin",
+        "gender": "Female",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "A"
+  
+      },
+      {
+        "id": 4,
+        "first_name": "Karney",
+        "last_name": "Zanussii",
+        "email": "kzanussii3@hao123.com",
+        "gender": "Male",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "C+"
+  
+      },
+      {
+        "id": 5,
+        "first_name": "Reid",
+        "last_name": "Schapero",
+        "email": "rschapero4@timesonline.co.uk",
+        "gender": "Male",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "A"
+  
+      },
+      {
+        "id": 6,
+        "first_name": "Dorine",
+        "last_name": "Braybrookes",
+        "email": "dbraybrookes5@gov.uk",
+        "gender": "Female",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "B"
+  
+      },
+      {
+        "id": 7,
+        "first_name": "Sarena",
+        "last_name": "Frape",
+        "email": "sfrape6@alexa.com",
+        "gender": "Female",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "B+"
+  
+      },
+      {
+        "id": 8,
+        "first_name": "Malva",
+        "last_name": "Pierse",
+        "email": "mpierse7@usda.gov",
+        "gender": "Female",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "A"
+  
+      },
+      {
+        "id": 9,
+        "first_name": "Rania",
+        "last_name": "Dablin",
+        "email": "rdablin8@state.gov",
+        "gender": "Female",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "-A"
+  
+      },
+      {
+        "id": 10,
+        "first_name": "Ingrim",
+        "last_name": "Offen",
+        "email": "ioffen9@slideshare.net",
+        "gender": "Male",
+        "admin No": "101",
+        "class": "Grade 4",
+        "End_term_Exam": "B"
+  
+      }
+    ]
+  }
