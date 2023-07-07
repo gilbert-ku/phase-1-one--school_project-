@@ -50,3 +50,21 @@ fetch("https://studentprofile.onrender.com/student")
  let resultExam = document.getElementById("result");
  let batabtn = document.getElementById("databasebtn");
   
+//  **************event listener*************
+newStudentinfo.addEventListener("submit", hundleStudentValue);
+
+// ***********************event hundler function***************************************
+function hundleStudentValue(e){
+    e.preventDefault();
+    let student = {
+        first_name: e.target.firstName.value,
+        last_name: e.target.lastName.value,
+        gender: e.target.gender.value,
+        admin_No: e.target.adminNum.value,
+        class: e.target.grade.value,
+        End_term_Exam: e.target.resultExam.value,
+    }
+    
+
+}
+
