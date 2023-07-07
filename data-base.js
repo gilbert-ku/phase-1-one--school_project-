@@ -7,6 +7,7 @@ fetch("https://studentprofile.onrender.com/student")
  console.log(data)
     const main = document.getElementById("school-data")
     const listName = document.getElementById("student-name")
+    let displayProfile = document.getElementById("student-profile")
 
     // iterate 
     data.forEach((student) => {
@@ -21,14 +22,15 @@ fetch("https://studentprofile.onrender.com/student")
             
             <h1>Student Profile </h1>
             <p>First name; ${student.first_name}</p>
-            <p>LAst name; ${student.last_name}</p>
+            <p>Last name; ${student.last_name}</p>
             <p>Gender; ${student.gender}</p>
             <p>Admission Number; ${student.admin_No}</p>
             <p>Class; ${student.class}</p>
             <p>Last Exam; ${student.End_term_Exam}</p>
     
             `
-            main.appendChild(studentProfile)
+            // main.appendChild(studentProfile)
+            displayProfile.innerHTML = studentProfile.innerHTML
     
         })
         
@@ -37,19 +39,14 @@ fetch("https://studentprofile.onrender.com/student")
 .catch(error => {
     console.log("Error:", error);
   });
+// ************get element from the form******
 
-
-  //******************form***************************** */
-const form = document.getElementById("newStudentinfo");
-const input = document.querySelectorAll("input");
-const dataBaseBtn = document.getElementById("databasebtn");
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const inputValues = [];
-    input.forEach((inputElement) => {
-        inputValues.push(inputElement.value);
-        console.log(inputValues)
-    });
-    alert("Thank you!!!");
-});
-
+ let newStudentinfo = document.getElementById("newStudentinfo");
+ let firstName = document.getElementById("first-name")
+ let lastName = document.getElementById("last-name");
+ let gender = document.getElementById("gender");
+ let adminNum = document.getElementById("admission_no");
+ let grade = document.getElementById("grade");
+ let resultExam = document.getElementById("result");
+ let batabtn = document.getElementById("databasebtn");
+  
