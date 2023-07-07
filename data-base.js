@@ -1,3 +1,6 @@
+
+
+//****************************fetch data */
 fetch("https://studentprofile.onrender.com/student")
 .then(response => response.json())
 .then(data => {
@@ -34,3 +37,19 @@ fetch("https://studentprofile.onrender.com/student")
 .catch(error => {
     console.log("Error:", error);
   });
+
+
+  //******************form***************************** */
+const form = document.getElementById("newStudentinfo");
+const input = document.querySelectorAll("input");
+const dataBaseBtn = document.getElementById("databasebtn");
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const inputValues = [];
+    input.forEach((inputElement) => {
+        inputValues.push(inputElement.value);
+        console.log(inputValues)
+    });
+    alert("Thank you!!!");
+});
+
