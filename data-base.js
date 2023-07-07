@@ -64,7 +64,20 @@ function hundleStudentValue(e){
         class: e.target.grade.value,
         End_term_Exam: e.target.resultExam.value,
     }
-    
+    newStudentValue(student);
 
 }
 
+// ******************************post data to server*****************************************
+function newStudentValue(student){
+    fetch("https://studentprofile.onrender.com/student", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body:JSON.stringify(student)
+    })
+    .then(res => res.json())
+    .then(student => console.log(student))
+    
+}
