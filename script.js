@@ -21,6 +21,31 @@ form.addEventListener("submit", (e) => {
 });
  
 
+                  //  create registration from and add event listener to register link
+
+const regLink = document.getElementById("regLink");
+regLink.addEventListener("click", (e) => {
+  e.preventDefault()
+  let mainLogin = document.querySelector(".login-box");
+
+  let registrationForm = document.createElement("div");
+  registrationForm.innerHTML = `
+    <h1>Register</h1>
+    <br> <br>
+    <label for="email" class="label-login">Email</label>
+    <br><input type="email" id="email"><br>
+
+    <label for="password" class="password">Password</label>
+    <br><input type="password" id="password"><br>
+    <label for="confirm-password" class="password">Confirm Password</label>
+    <br><input type="password" id="confirm-password"><br>
+    <br> <br><button type="submit" class="loginbtn" id="login">Register</button>
+  `;
+
+  mainLogin.innerHTML = '';
+  mainLogin.appendChild(registrationForm);
+});
+
 
 
 
