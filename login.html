@@ -45,19 +45,19 @@
     </header>
     <!-- login body -->
     <section class="body">
-        <div class="login-box">
+        <div class="login-box" id="login-box">
             <form action="">
                 <h1>Login</h1>
                 <div class="input-box">
                     <span class="icon"><i class="fa-solid fa-envelope"></i></span>
-                    <input type="email">
+                    <input type="email" id="email">
                     <label for="" class="label-login">Email</label>
                 </div>
                 
                 <div class="input-box">
                     <span class="icon"><i class="fa-solid fa-lock"></i></span>
-                    <input type="password">
-                    <label for=""class="label-login">Password</label>
+                    <input type="password" id="password">
+                    <label for=""class="label-login" autocomplete="current-password">Password</label>
                 </div>
                 
                 <div class="remember-forgot">
@@ -66,15 +66,19 @@
                     <br>
                 </div>
 
-                    <button type="submit" class="loginbtn">Login</button>
+                    <button type="submit" class="loginbtn" id="login">Login</button>
                 
                     <br>
                 
                 <div class="register-link">
                     
-                    <p>Don't have an account? <a href="#">Register</a></p>
+                    <p>Don't have an account? <a href="#" id="regLink">Register</a></p>
                 </div>
+                
             </form>
+        </div>
+        <div id="register">
+
         </div>
     </section>    
     <!-- footer -->
@@ -123,5 +127,6 @@
         </div>
         <h3>copyright©treehouseInternationalschool(2023)</h3>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
