@@ -5,8 +5,11 @@
     
     
 } 
+html {
+    scroll-behavior: smooth;
+  }
 body {
-    background-color: rgb(64, 148, 64);
+    background-color: #16B669;
     width: 100vw;
     height: auto;
     overflow-x: hidden;
