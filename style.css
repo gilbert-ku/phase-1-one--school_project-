@@ -516,10 +516,25 @@ footer {
     width: 20vw;
     background-color: brown;
     padding: 15px;
-    padding-left: 5vw;
+    padding-left: 2.5vw;
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+#school-data h2 {
+    padding: 15px;
+    font-size: 1.5vw;
+}
+#student-name {
+    font-size: 1vw;
+
+}
+#student-name li {
+    border: 2px solid #16B669;
+    height: 30px;
+    width: 8vw;
+    border-radius: 10px;
+    text-align: center;
 }
 #student-profile {
     width: 20vw;
