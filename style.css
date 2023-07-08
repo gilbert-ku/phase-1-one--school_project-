@@ -523,6 +523,13 @@ footer {
     padding: 15px;
     border-radius: 10px;
 }
+#databasebtn {
+    height: 30px;
+    width: 12vw;
+    border-radius: 10px;
+    background-color: #16B669;
+
+}
 
 #school-data {
     width: 20vw;
