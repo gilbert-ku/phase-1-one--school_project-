@@ -499,18 +499,34 @@ footer {
     height: 72.5vh;
     background-color: #EDE3E3;
     display: flex;
+    margin-left: 20vw;
 }
 
 #newStudentinfo {
     width: 20vw;
     background-color: darkorchid;
+    padding: 15px;
+    padding-left: 5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 #school-data {
     width: 20vw;
     background-color: brown;
+    padding: 15px;
+    padding-left: 5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 #student-profile {
     width: 20vw;
     background-color: aquamarine;
+    padding: 15px;
+    padding-left: 5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
