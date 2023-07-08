@@ -511,6 +511,18 @@ footer {
     align-content: center;
     align-items: center;
 }
+#newStudentinfo h2 {
+    padding: 15px;
+    font-size: 1.5vw;
+}
+
+#newStudentinfo input{
+    height: 30px;
+    width: 12vw;
+    font-size: 1vw;
+    padding: 15px;
+    border-radius: 10px;
+}
 
 #school-data {
     width: 20vw;
@@ -525,6 +537,7 @@ footer {
     padding: 15px;
     font-size: 1.5vw;
 }
+
 #student-name {
     font-size: 1vw;
     padding: 10px;
