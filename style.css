@@ -494,3 +494,23 @@ footer {
     text-decoration: underline;
     color: #000704;
 }
+.data-base {
+    width: 60vw;
+    height: 72.5vh;
+    background-color: #EDE3E3;
+    display: flex;
+}
+
+#newStudentinfo {
+    width: 20vw;
+    background-color: darkorchid;
+}
+
+#school-data {
+    width: 20vw;
+    background-color: brown;
+}
+#student-profile {
+    width: 20vw;
+    background-color: aquamarine;
+}
