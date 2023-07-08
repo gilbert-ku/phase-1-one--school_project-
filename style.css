@@ -494,22 +494,27 @@ footer {
     text-decoration: underline;
     color: #000704;
 }
+/* **************************Student Profile********************************************** */
 .data-base {
     width: 60vw;
     height: 72.5vh;
+    background-image: url(./image-school/undraw_app_data_re_vg5c-modified.png);
     background-color: #EDE3E3;
     display: flex;
     margin-left: 20vw;
+    border-radius: 15px;
+    opacity: 9;
 }
-/* **************************Student Profile********************************************** */
+
 #newStudentinfo {
     width: 20vw;
-    background-color: darkorchid;
+    /* background-color: darkorchid; */
     padding: 15px;
     padding-left: 5vw;
     justify-content: center;
     align-content: center;
     align-items: center;
+    border-radius: 15px;
 }
 #newStudentinfo h2 {
     padding: 15px;
@@ -533,7 +538,7 @@ footer {
 
 #school-data {
     width: 20vw;
-    background-color: brown;
+    /* background-color: brown; */
     padding: 15px;
     padding-left: 2.5vw;
     justify-content: center;
@@ -559,7 +564,7 @@ footer {
 }
 #student-profile {
     width: 20vw;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 15px;
     padding-left: 5vw;
     justify-content: center;
