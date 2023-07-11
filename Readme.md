@@ -1,3 +1,4 @@
+![Screenshot from 2023-07-11 08-41-12](https://github.com/gilbert-ku/phase-1-one--school_project-/assets/125896467/279d3cdf-338f-4f69-8ac2-190d6834bbe0)
 
 
 # Portfolio
