@@ -1,4 +1,4 @@
-![Screenshot from 2023-07-03 09-01-43](https://github.com/gilbert-ku/weeek-3-code-challenge/assets/125896467/6343852c-11fa-4745-9709-1530fbfd415e)
+
 
 # Portfolio
 By Owino Gilbert
